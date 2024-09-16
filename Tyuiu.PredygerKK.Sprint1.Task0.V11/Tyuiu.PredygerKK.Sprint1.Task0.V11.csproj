@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.PredygerKK.Sprint!.Task0.V11.Lib\Tyuiu.PredygerKK.Sprint!.Task0.V11.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib\Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib\Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib.csproj" />
   </ItemGroup>
 
 </Project>

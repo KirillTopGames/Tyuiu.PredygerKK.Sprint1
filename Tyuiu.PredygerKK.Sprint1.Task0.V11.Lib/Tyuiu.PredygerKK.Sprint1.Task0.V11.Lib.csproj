@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Tyuiu.PredygerKK.Sprint_.Task0.V11.Lib</RootNamespace>
+    <RootNamespace>Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

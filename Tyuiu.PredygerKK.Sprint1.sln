@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.PredygerKK.Sprint1.Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.PredygerKK.Sprint1.Task0.V11.Test", "Tyuiu.PredygerKK.Sprint1.Task0.V11.Test\Tyuiu.PredygerKK.Sprint1.Task0.V11.Test.csproj", "{AE624930-28A2-4E25-9061-6D5D04C67C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PredygerKK.Sprint!.Task0.V11.Lib", "Tyuiu.PredygerKK.Sprint!.Task0.V11.Lib\Tyuiu.PredygerKK.Sprint!.Task0.V11.Lib.csproj", "{2DFC898E-CD04-4431-8D51-460FED5144E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib", "Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib\Tyuiu.PredygerKK.Sprint1.Task0.V11.Lib.csproj", "{9F9004D6-C60E-4678-9069-8DDAF2C2F79F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,10 @@ Global
 		{AE624930-28A2-4E25-9061-6D5D04C67C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE624930-28A2-4E25-9061-6D5D04C67C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE624930-28A2-4E25-9061-6D5D04C67C25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DFC898E-CD04-4431-8D51-460FED5144E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DFC898E-CD04-4431-8D51-460FED5144E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DFC898E-CD04-4431-8D51-460FED5144E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DFC898E-CD04-4431-8D51-460FED5144E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9004D6-C60E-4678-9069-8DDAF2C2F79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9004D6-C60E-4678-9069-8DDAF2C2F79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9004D6-C60E-4678-9069-8DDAF2C2F79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9004D6-C60E-4678-9069-8DDAF2C2F79F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,7 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{142F9BAF-7AE4-4C35-9043-C334762C13B2} = {7ED190C4-53E8-4961-9C60-5DDA968652CC}
 		{AE624930-28A2-4E25-9061-6D5D04C67C25} = {7ED190C4-53E8-4961-9C60-5DDA968652CC}
-		{2DFC898E-CD04-4431-8D51-460FED5144E7} = {7ED190C4-53E8-4961-9C60-5DDA968652CC}
+		{9F9004D6-C60E-4678-9069-8DDAF2C2F79F} = {7ED190C4-53E8-4961-9C60-5DDA968652CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16E6BA66-9C3D-4AEF-9528-BAD54FA6C2B9}
