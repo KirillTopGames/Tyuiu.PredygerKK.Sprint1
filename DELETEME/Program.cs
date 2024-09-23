@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            int kir = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(kir);
         }
     }
 }
