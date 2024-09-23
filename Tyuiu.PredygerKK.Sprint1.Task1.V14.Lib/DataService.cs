@@ -2,7 +2,7 @@
 {
     public class DataService
     {
-        public static int Primer(int a, int b, int c)
+        public static double Primer(double a, double b, double c)
         {
             return a * b / c + (a / (b + c));
         }

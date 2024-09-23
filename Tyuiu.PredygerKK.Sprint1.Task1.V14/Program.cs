@@ -21,12 +21,22 @@ namespace Tyuiu.PredygerKK.Sprint1.Task1.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            int a = Int32.Parse(Console.ReadLine());
-            int b = Int32.Parse(Console.ReadLine());
-            int c = Int32.Parse(Console.ReadLine());
+
+            double a, b, c;
+
+            Console.WriteLine("Введите значение a:");
+            a = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение b:");
+            b = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение c:");
+            c = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
             Console.WriteLine(DataService.Primer(a, b, c));
         }
     }

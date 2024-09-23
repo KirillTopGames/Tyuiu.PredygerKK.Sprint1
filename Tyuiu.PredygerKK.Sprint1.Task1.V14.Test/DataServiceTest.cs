@@ -8,10 +8,11 @@ namespace Tyuiu.PredygerKK.Sprint1.Task1.V14.Test
         [TestMethod]
         public void TestMethod()
         {
-            int a = 10;
-            int b = 18;
-            int c = 36;
-            Assert.AreEqual(5, DataService.Primer(a, b, c));
+            double a, b, c;
+            a = 2;
+            b = 1;
+            c = 1;
+            Assert.AreEqual(3, DataService.Primer(a, b, c));
         }
     }
 }
