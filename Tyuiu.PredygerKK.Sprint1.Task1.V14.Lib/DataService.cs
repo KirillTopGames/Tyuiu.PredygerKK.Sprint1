@@ -2,9 +2,9 @@
 
 namespace Tyuiu.PredygerKK.Sprint1.Task1.V14.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task1V14
     {
-        public static double Primer(double a, double b, double c)
+        public double Calculate(double a, double b, double c)
         {
             return a * b / c + (a / (b + c));
         }

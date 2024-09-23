@@ -6,6 +6,8 @@ namespace Tyuiu.PredygerKK.Sprint1.Task1.V14
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
+
             Console.Title = "Спринт #1 | Выполнил: Предыгер К.К. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -37,7 +39,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task1.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(DataService.Primer(a, b, c));
+            Console.WriteLine(ds.Calculate(a, b, c));
         }
     }
 }
