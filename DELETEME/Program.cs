@@ -4,8 +4,21 @@
     {
         static void Main(string[] args)
         {
-            int kir = Int32.Parse(Console.ReadLine());
-            Console.WriteLine(kir);
+            int a = 3;
+
+            int b = --a + 2;
+
+            int c = b;
+
+            a = a + b + c;
+
+            c = b++ + a;
+
+            b = b - a;
+
+            int x = a + b + c;
+            
+            Console.WriteLine(x);
         }
     }
 }
