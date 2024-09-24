@@ -6,7 +6,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task2.V5.Lib
     {
         public int CalculateSideSquare(int a)
         {
-            return 4 * a * a;
+            return 6 * a * a;
         }
     }
 }

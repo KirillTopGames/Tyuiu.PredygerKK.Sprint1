@@ -10,7 +10,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task2.V5.Test
         {
             DataService ds = new DataService();
             int x = 2;
-            Assert.AreEqual(16, 4*x*x);
+            Assert.AreEqual(24, 6*x*x);
         }
     }
 }
