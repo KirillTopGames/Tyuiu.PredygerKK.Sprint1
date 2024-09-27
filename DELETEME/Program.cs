@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(0%10);
+            Console.WriteLine(Math.Round(0.461832, 3));
         }
     }
 }
