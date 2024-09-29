@@ -9,8 +9,8 @@ namespace Tyuiu.PredygerKK.Sprint1.Task5.V2.Test
         public void TestMethod()
         {
             DataService ds = new DataService();
-            double temp = 32;
-            Assert.AreEqual(0, ds.FahrenheitTo—elsius(temp));
+            double temp = 367;
+            Assert.AreEqual(186, ds.FahrenheitTo—elsius(temp));
         }
     }
 }

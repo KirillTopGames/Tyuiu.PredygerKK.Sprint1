@@ -6,8 +6,8 @@ namespace Tyuiu.PredygerKK.Sprint1.Task5.V2.Lib
     {
         public int FahrenheitToСelsius(double temp)
         {
-            int res = Convert.ToInt32(5 / 9 * (temp - 32));
-            return res;
+            double res = (temp - 32) / 1.8;
+            return Convert.ToInt32(res);
         }
     }
 }
