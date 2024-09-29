@@ -1,10 +1,14 @@
-﻿namespace DELETEME
+﻿using System.Globalization;
+
+namespace DELETEME
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Math.Round(0.461832, 3));
+            double temp = 2.54;
+            int far = Convert.ToInt32(temp);
+            Console.WriteLine(far);
         }
     }
 }
