@@ -23,7 +23,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task6.V10
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите набор слов через запятую:");
+            Console.WriteLine("Введите текст:");
             string value;
             value = Console.ReadLine();
 

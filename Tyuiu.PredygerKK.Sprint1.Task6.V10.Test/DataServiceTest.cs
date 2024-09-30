@@ -12,9 +12,9 @@ namespace Tyuiu.PredygerKK.Sprint1.Task6.V10.Test
 
             string value;
 
-            value = "Kirill, Dimon, Maks, Vovan, Baha, Danya, Semen";
+            value = "Kirill Dimon Maks Vovan Baha Danya Semen";
             value = ds.DeleteMiddleLetter(value);
-            Assert.AreEqual("Kirill, Dion, Maks, Voan, Baha, Daya, Seen", ds.DeleteMiddleLetter(value));
+            Assert.AreEqual("Kirill Dion Maks Voan Baha Daya Seen", ds.DeleteMiddleLetter(value));
         }
     }
 }
