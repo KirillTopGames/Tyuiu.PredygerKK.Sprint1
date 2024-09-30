@@ -7,7 +7,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task6.V10.Lib
         public string DeleteMiddleLetter(string value)
         {
             var l = new List<string>();
-            string[] words = value.Split(", ");
+            string[] words = value.Split(" ");
             foreach (string word in words)
             {
                 if (word.Length % 2 == 0)
@@ -19,7 +19,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task6.V10.Lib
                     l.Add(word.Remove(word.Length / 2, 1));
                 }
             }
-            return string.Join(", ", l);
+            return string.Join(" ", l);
         }
     }
 }
