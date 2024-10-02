@@ -1,6 +1,6 @@
-﻿using Tyuiu.PredygerKK.Sprint1.Task5.V2.Lib;
+﻿using Tyuiu.PredygerKK.Sprint1.Task7.V30.Lib;
 
-namespace Tyuiu.PredygerKK.Sprint1.Task5.V2
+namespace Tyuiu.PredygerKK.Sprint1.Task7.V30
 {
     internal class Program
     {
@@ -10,34 +10,32 @@ namespace Tyuiu.PredygerKK.Sprint1.Task5.V2
             Console.Title = "Спринт #1 | Выполнил: Предыгер К.К. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #2                                                              *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #30                                                             *");
             Console.WriteLine("* Выполнил: Предыгер Кирилл Константинович | ПКТб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая решает следующую задачу:                    *");
-            Console.WriteLine("*                                                                         *");
-            Console.WriteLine("* Дано значение температуры в градусах Фаренгейта.                        *");
-            Console.WriteLine("* Определить значение этой же температуры в градусах Цельсия.             *");
-            Console.WriteLine("* Ответ привести к целому с помощью класса Convert.                       *");
+            Console.WriteLine("* Написать программу, которая вычисляет математическое                    *");
+            Console.WriteLine("* выражение по исходным значениям данных, вводимых пользователем.         *");
+            Console.WriteLine("* Ответ округлите до 3 знаков после запятой.                              *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите значение температуры по фаренгейту:");
-            double temp;
-            temp = Convert.ToDouble(Console.ReadLine());
+            double x, y;
+            Console.WriteLine("Введите значение X:");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Значение температуры в градусах цельсия: ");
-            int res = Convert.ToInt32(ds.FahrenheitToСelsius(temp));
-            Console.WriteLine($"{temp}"+"F " + "= " + $"{res}" + "°С");
-
+            Console.WriteLine(ds.Calculate(x, y));
         }
     }
 }

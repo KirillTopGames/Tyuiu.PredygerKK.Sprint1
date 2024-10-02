@@ -10,7 +10,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task6.V10
             Console.Title = "Спринт #1 | Выполнил: Предыгер К.К. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
+            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #10                                                             *");
             Console.WriteLine("* Выполнил: Предыгер Кирилл Константинович | ПКТб-24-1                    *");

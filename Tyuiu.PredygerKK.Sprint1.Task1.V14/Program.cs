@@ -11,7 +11,7 @@ namespace Tyuiu.PredygerKK.Sprint1.Task1.V14
             Console.Title = "Спринт #1 | Выполнил: Предыгер К.К. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
+            Console.WriteLine("* Тема: Организация ввода\\вывода в консольных приложениях                *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #14                                                             *");
             Console.WriteLine("* Выполнил: Предыгер Кирилл Константинович | ПКТб-24-1                    *");
